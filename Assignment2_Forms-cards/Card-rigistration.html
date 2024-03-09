@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+ <style>
+    body{
+        background: gray;
+    }
+    .img{
+        object-fit: cover;
+    }
+
+ </style>
+</head>
+<body>
+    <div class="container-fluid bg-dark bg-gradient text-center">
+        <h2 class="text-white"> Registration Form</h2>
+    </div>
+
+    <div class="container mt-2 d-flex align-items-center justify-content-center"> 
+        <div class="row">
+            <div class=" col1 col-6 ">
+                <div class="card mt-2 d-flex align-items-center justify-content-center">
+                    <div class="card-header bg-ligt text-primary">
+                        <h4>Personal Information</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-field mt-4 align-items-center justify-content-center">
+                            <lable class="form-lable fw-bold">First Name</lable>
+                            <input type="text" class="form-control tm-2" required>
+                        </div>
+                        <div class="form-field mt-1">
+                            <lable class="form-lable fw-bold">Last Name</lable>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-field mt-1">
+                            <lable class="form-lable fw-bold">Email Address</lable>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="form-field mt-1">
+                            <lable class="form-lable fw-bold">password</lable>
+                            <input type="password" class="form-control" required>
+                        </div>
+                        <div class="form-field mt-1">
+                            <lable class="form-lable fw-bold">Date of Birth</lable>
+                            <input type="date" class="form-control" required>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="form-field mt-3">
+                                <lable class="lable fw-bold ">Contact number</lable>
+                                <input type="number" class="form-control" required>
+                            </div>
+                            <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+  
+                                <h6 class="mb-0 me-4">Gender: </h6>
+              
+                                <div class="form-check form-check-inline mb-0 me-4">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                                    value="option1" />
+                                  <label class="form-check-label" for="femaleGender">Female</label>
+                                </div>
+                                <div class="form-check form-check-inline mb-0 me-4">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                                      value="option2" />
+                                    <label class="form-check-label" for="maleGender">Male</label>
+                                  </div>
+                                </div>
+                                </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col2 col-6 mt-3">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://www.icegate.gov.in/sites/default/files/styles/max_325x325/public/2022-04/registration-enquiry.png?itok=9ZR6k6YL">
+                    </div>
+                    <div class="card-body mt-4">
+
+                        <div class="form-outline mb-4">
+                           
+                            <label class="form-label" >Course</label>
+                                <select class="select form-control form control-lg">
+                                  <option value="1">State</option>
+                                  <option value="2">Java</option>
+                                  <option value="3">Python</option>
+                                  <option value="4">Js</option>
+                                </select>
+                          </div>    
+                          
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" >Pincode</label>
+                            <input type="text" class="form-control form-control-lg" />
+                          </div>
+                          <div class="form-outline mb-4">
+                            <label class="form-label" >College name</label>
+                            <input type="text" class="form-control form-control-lg" />
+                          </div>
+         
+                        </div>
+                        
+                    </div> 
+                     
+            </div>
+            <div class="col-12 bg-white border-none mt-1 ">
+                <div class="d-flex justify-content-center pt-3">
+                    <button type="button" class="btn btn-light btn-lg bg-primary">Reset all</button>
+                    <button type="button" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                  </div>
+            </div>
+          
+        </div>
+
+    </div>
+</body>
+</html>
